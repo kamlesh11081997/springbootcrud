@@ -15,7 +15,8 @@ that connects to Postgres database using Spring JdbcTemplate
 ___
 #### 1. GET all employees <br>
 ```GET /api/v1/employees```
-<br><br><b> Sample Response</b>
+<br><b>```Header : environment=dev/prod```</b>
+<br><br><b>Sample Response</b>
 ```
 [
 {
@@ -46,6 +47,7 @@ ___
 |---------|-----|-------|
 | ```id```      |```int```|Required : id of employee to fetch details|
 <b>Sample Response</b>
+<br><b>```Header : environment=dev/prod```</b>
 ```
 {
 "id": 1,
